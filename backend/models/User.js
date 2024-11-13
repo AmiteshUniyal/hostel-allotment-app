@@ -8,4 +8,5 @@ const userSchema = new mongoose.Schema({
   collegeID: { type: String, required: true}, 
   fathersName: { type: String, required: true}
 });
+// mongoes model
 module.exports = mongoose.model('User', userSchema);
