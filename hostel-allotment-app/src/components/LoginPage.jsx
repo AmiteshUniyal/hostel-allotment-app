@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import scebackground from '../../image/SCE-Full.jpg';
-import loginlogo from '../../image/loginpagelogo.png';
+import loginlogo from '../../image/loginpagelogo-removebg-preview.png';
 import { Button } from './button';
 import refresh from '../../image/reflogo.png';
 
@@ -30,8 +30,8 @@ const LoginPage = () => {
 
             <div className="absolute inset-0 flex items-center justify-end pr-10">
                 <form className="bg-white/30 backdrop-blur-3xl  rounded-lg shadow-md flex flex-col justify-center items-center w-80">
-                   <div className="w-full h-16 mb-6 rounded-lg">
-                   <img  src={loginlogo} alt="logo" />
+                   <div className="w-full h-16 mb-6 rounded-lg ">
+                   <img className='w-11/12 mx-auto my-2' src={loginlogo} alt="logo" />
                    </div>
 
                     <div className="flex flex-col w-full p-8">
